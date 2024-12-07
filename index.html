@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-0-480.css">
+</head>
+<script type="module">
+    import {addToLocalStorage, deleteAll, sortBy} from './app.js';
+
+    window.addToLocalStorage = addToLocalStorage;
+    window.deleteAll = deleteAll;
+    window.sortBy = sortBy;
+</script>
+<body>
+<div class="background">
+
+    <div class="main">
+        <div class="main-container">
+            <h1>Test</h1>
+            <p class="main-input-info">Name/Value Pair</p>
+            <input type="text" id="input-one" class="main-input" placeholder="Enter a name/value pair">
+            <button onclick="addToLocalStorage()" class="main-button-confirm">Add</button>
+            <p class="main-input-info">Name/Value Pair List</p>
+            <div class="main-wrapper">
+                <div class="textarea-container">
+                    <textarea id="textarea" class="main-input-list" placeholder="Enter a name/value pair"></textarea>
+                </div>
+                <div class="button-column">
+                    <button onclick="sortBy('name')" class="main-button-sort">Sort By Name</button>
+                    <button onclick="sortBy('value')" class="main-button-sort">Sort By Value</button>
+                    <button onclick="deleteAll()" class="main-button-delete">Delete</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

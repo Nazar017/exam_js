@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    background-color: rgb(58, 130, 220);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.main {
+    background-color: #ffffff;
+    margin: 150px 50px 50px 40px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.main-container {
+    width: 90%;
+    height: 90%;
+    margin: 50px 0 0 50px;
+}
+
+
+.main-input-info {
+    margin-top: 20px;
+    opacity: 40%;
+}
+
+.main-input {
+    width: 60%;
+    height: 30px;
+}
+
+.main-button-confirm {
+    width: 50px;
+    height: 30px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.main-button-confirm:hover {
+    background: seagreen;
+    color: white;
+}
+
+.main-input-list {
+    width: 100%;
+    max-width: 99.8%;
+    height: 100%;
+    resize: none;
+}
+
+.main-wrapper {
+    height: 50%;
+    display: flex;
+    align-items: flex-start;
+    gap: 55px;
+}
+
+.textarea-container {
+    max-width: 60%;
+    height: 100%;
+    flex: 1;
+}
+
+.button-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-button-sort {
+    width: 120px;
+    height: 30px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.main-button-delete {
+    width: 60px;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.main-button-delete:hover {
+    background: darkred;
+    color: white;
+}

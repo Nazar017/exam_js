@@ -1,0 +1,53 @@
+@media (max-width: 480px) {
+    .main {
+        margin: 20px 10px;
+        width: 90%;
+    }
+
+    .main-container {
+        margin: 20px 0 0 10px;
+        width: 95%;
+    }
+
+    .main-input {
+        width: 90%;
+        height: 40px;
+    }
+
+    .main-button-confirm {
+        margin-left: 10px;
+        margin-top: 10px;
+        width: 70px;
+        height: 40px;
+    }
+
+    .main-wrapper {
+        flex-direction: column;
+        gap: 20px;
+        height: auto;
+    }
+
+    .textarea-container {
+        max-width: 100%;
+        flex: none;
+        height: auto;
+    }
+
+    .main-input-list {
+        width: 100%;
+        height: 150px;
+    }
+
+    .button-column {
+        align-items: center;
+    }
+
+    .main-button-sort, .main-button-delete {
+        width: 100px;
+        height: 40px;
+    }
+
+    .main-button-delete {
+        margin-top: 10px;
+    }
+}
